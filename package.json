@@ -1,6 +1,6 @@
 {
   "name": "language-source-cfg",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Highlighting for Valve's Source engine .cfg files.",
   "engines": {
     "atom": "*"
