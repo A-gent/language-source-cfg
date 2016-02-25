@@ -4,34 +4,39 @@ fileTypes: [
 name: "Source engine config file"
 patterns: [
   {
-    comment: "Numbers"
-    match: "\\b\\d+\\.?(?:\\d+)?\\b"
-    name: "constant.numeric.cfg"
+    comment: 'Numbers'
+    match: '\\b\\d+\\.?(?:\\d+)?\\b'
+    name: 'constant.numeric.cfg'
   }
+
   {
-    comment: "Double quoted string"
-    match: "\\\"[^\\\"]*\\\""
-    name: "string.quoted.double.cfg"
+    comment: 'Double quoted string'
+    match: '\\\"[^\\\"]*\\\"'
+    name: 'string.quoted.double.cfg'
   }
+
   {
-    comment: "Keywords"
-    match: "\\b(?:wait|echo|exec)\\b"
-    name: "entity.other.attribute-name.cfg"
+    comment: 'Keywords that are not setting calls; they are effectively function calls'
+    match: '\\b(?:bind|unbind|unbindall|bindtoggle|alias|exec|echo|wait|clear)\\b'
+    name: 'entity.name.function.cfg'
   }
+
   {
-    comment: "Aliases"
-    match: "\\balias\\b"
-    name: "entity.name.function.cfg"
+    comment: 'Setting calls'
+    match: '\\b(?:r_.+|cl_.+)\\b'
+    name: 'entity.other.attribute-name.cfg'
   }
+
   {
-    comment: "Binds"
-    match: "\\b(?:(?:(?:un)?bind(?:all)?))\\b"
-    name: "keyword.cfg"
+    comment: 'Buttons to bind to'
+    match: '\\b(?:[a-z]|[A-Z]|[0-9]|F1?[0-9]|mouse[1-5]|mwheel(?:up|down)|ctrl|shift|alt|capslock|tab|semicolon)\\b'
+    name: 'keyword.cfg'
   }
+
   {
-    comment: "Comments"
-    match: "//.*$"
-    name: "comment.cfg"
+    comment: 'Comments'
+    match: '//.*$'
+    name: 'comment.cfg'
   }
 ]
 scopeName: "source.cfg"
