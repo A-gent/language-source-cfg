@@ -1,0 +1,37 @@
+fileTypes: [
+  "cfg"
+]
+name: "Source engine config file"
+patterns: [
+  {
+    comment: "Numbers"
+    match: "\\b\\d+\\.?(?:\\d+)?\\b"
+    name: "constant.numeric.cfg"
+  }
+  {
+    comment: "Double quoted string"
+    match: "\\\"[^\\\"]*\\\""
+    name: "string.quoted.double.cfg"
+  }
+  {
+    comment: "Keywords"
+    match: "\\b(?:wait|echo|exec)\\b"
+    name: "entity.other.attribute-name.cfg"
+  }
+  {
+    comment: "Aliases"
+    match: "\\balias\\b"
+    name: "entity.name.function.cfg"
+  }
+  {
+    comment: "Binds"
+    match: "\\b(?:(?:(?:un)?bind(?:all)?))\\b"
+    name: "keyword.cfg"
+  }
+  {
+    comment: "Comments"
+    match: "//.*$"
+    name: "comment.cfg"
+  }
+]
+scopeName: "source.cfg"

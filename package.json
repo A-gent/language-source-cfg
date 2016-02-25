@@ -1,0 +1,19 @@
+{
+  "name": "language-source-cfg",
+  "version": "0.1.0",
+  "description": "Highlighting for Valve's Source engine .cfg files.",
+  "engines": {
+      "atom": "*"
+  },
+  "homepage": "https://github.com/Krakob/language-source-cfg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Krakob/language-source-cfg"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Krakob/language-source-cfg/issues"
+  },
+  "dependencies": {
+  }
+}
