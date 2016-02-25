@@ -1,3 +1,7 @@
+## 0.3.0
+* Now covers probably 99.9% of use cases!
+* Based off [denolfe's Config.tmLang](https://github.com/denolfe/Config.tmLanguage)
+
 ## 0.2.0
 * Rewrote recognition fully
 * Added a lot of keywords and binds
