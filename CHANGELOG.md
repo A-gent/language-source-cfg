@@ -1,3 +1,6 @@
+## 0.3.1
+* Tidied up regex for binds slightly.
+
 ## 0.3.0
 * Now covers probably 99.9% of use cases!
 * Based off [denolfe's Config.tmLang](https://github.com/denolfe/Config.tmLanguage)
