@@ -35,7 +35,7 @@ patterns: [
 
   {
     comment: 'Buttons to bind to'
-    match: '\\b(?:1|2|3|4|5|6|7|8|9|0|a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z|shift|alt|ctrl|mwheelup|mwheeldown|wheelright|wheeldown|space|tab|enter|escape|backspace|del|ins|pgup|pgdn|home|end|uparrow|downarrow|leftarrow|rightarrow|pause|kp_home|kp_uparrow|kp_pgup|kp_leftarrow|kp_5|kp_rightarrow|kp_end|kp_enter|kp_downarrow|kp_pgdn|kp_ins|kp_del|kp_slash|kp_minus|kp_plus|kp_multiply|mouse1|mouse2|mouse3|mouse4|mouse5|f1|f2|f3|f4|f5|f6|f7|f8|f9|f10|f11|f12|capslock|semicolon)\\b'
+    match: '\\b(?:[a-zA-Z0-9]|[fF][0-9]|[fF]1[0-2]|shift|alt|ctrl|mwheelup|mwheeldown|wheelright|wheeldown|space|tab|enter|escape|backspace|del|ins|pgup|pgdn|home|end|uparrow|downarrow|leftarrow|rightarrow|pause|kp_home|kp_uparrow|kp_pgup|kp_leftarrow|kp_5|kp_rightarrow|kp_end|kp_enter|kp_downarrow|kp_pgdn|kp_ins|kp_del|kp_slash|kp_minus|kp_plus|kp_multiply|mouse[1-5]|capslock|semicolon)\\b'
     name: 'constant.language.cfg'
   }
 
