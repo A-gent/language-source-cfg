@@ -1,9 +1,9 @@
 {
   "name": "language-source-cfg",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Highlighting for Valve's Source engine .cfg files.",
   "engines": {
-      "atom": "*"
+    "atom": "*"
   },
   "homepage": "https://github.com/Krakob/language-source-cfg",
   "repository": {
@@ -14,6 +14,5 @@
   "bugs": {
     "url": "https://github.com/Krakob/language-source-cfg/issues"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
